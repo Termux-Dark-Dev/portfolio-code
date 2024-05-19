@@ -61,7 +61,6 @@ class UpperSection extends StatelessWidget {
               children: [
                 TextButton(
                     style: TextButton.styleFrom(
-                        fixedSize: Size(160, 50),
                         padding: EdgeInsets.all(22),
                         backgroundColor: Colors.transparent,
                         shape: const StadiumBorder(

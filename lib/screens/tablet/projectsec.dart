@@ -344,6 +344,7 @@ class _ProjectWidgetTabletState extends State<ProjectWidgetTablet> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Wrap(
+                    crossAxisAlignment: WrapCrossAlignment.center,
                     children: [
                       SelectableText(
                         projectName,
